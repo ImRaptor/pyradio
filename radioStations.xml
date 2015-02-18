@@ -4,5 +4,5 @@
 	<Station name="Rock 102" type="SC">http://2943.live.streamtheworld.com:80/ROCK102_SC</Station>
 	<Station name="VW Classic Rock" type="SC">http://listen.radionomy.com/VWClassicRock</Station>
 	<Station name="Powerage" type="SC">http://listen.radionomy.com/Powerage</Station>
-    <Station name="Winnipeg Citi" type="F4M">hds://radio_citi-lh.akamaihd.net/z/WIN921_1@190203/manifest.f4m</Station>
+    <Station name="Hard Rock" type="SC">http://192.240.97.67:8002</Station>
 </radio>
