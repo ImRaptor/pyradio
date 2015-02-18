@@ -72,6 +72,8 @@ def mainloop():
                 elif connTry >=5 and not network_detection() and not network_detection(target="www.msn.ca",port="80"):
                         lcd.clear()
                         lcd.message("Connection\nproblem")
+                        call('/etc/init.d/networking','restart')
+                        connTry=0
                 else:
                         connTry=0
                 time.sleep(0.1)
